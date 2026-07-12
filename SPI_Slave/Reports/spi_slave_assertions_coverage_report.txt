@@ -1,0 +1,47 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/SPI_SLAVE
+=== Design Unit: work.SLAVE
+=================================================================================
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/cover__a4                 SLAVE  Verilog  SVA  SPI_slave.sv(313)
+                                                                              1259 Covered   
+/top/SPI_SLAVE/cover__a3                 SLAVE  Verilog  SVA  SPI_slave.sv(306)
+                                                                               392 Covered   
+/top/SPI_SLAVE/cover__a2                 SLAVE  Verilog  SVA  SPI_slave.sv(299)
+                                                                              1642 Covered   
+/top/SPI_SLAVE/cover__a1                 SLAVE  Verilog  SVA  SPI_slave.sv(292)
+                                                                              3686 Covered   
+/top/SPI_SLAVE/cover__a0                 SLAVE  Verilog  SVA  SPI_slave.sv(285)
+                                                                              3749 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/cover__a4                 SLAVE  Verilog  SVA  SPI_slave.sv(313)
+                                                                              1259 Covered   
+/top/SPI_SLAVE/cover__a3                 SLAVE  Verilog  SVA  SPI_slave.sv(306)
+                                                                               392 Covered   
+/top/SPI_SLAVE/cover__a2                 SLAVE  Verilog  SVA  SPI_slave.sv(299)
+                                                                              1642 Covered   
+/top/SPI_SLAVE/cover__a1                 SLAVE  Verilog  SVA  SPI_slave.sv(292)
+                                                                              3686 Covered   
+/top/SPI_SLAVE/cover__a0                 SLAVE  Verilog  SVA  SPI_slave.sv(285)
+                                                                              3749 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+Total Coverage By Instance (filtered view): 100.00%
+

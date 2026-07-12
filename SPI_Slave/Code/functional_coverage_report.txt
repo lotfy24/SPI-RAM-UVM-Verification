@@ -1,0 +1,166 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /SPI_coverage_pkg
+=== Design Unit: work.SPI_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         16        16         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cvr_gp           100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin msb_00                                      14475          1          -    Covered              
+        bin msb_01                                      12828          1          -    Covered              
+        bin msb_10                                      11807          1          -    Covered              
+        bin msb_11                                      11896          1          -    Covered              
+        bin msb_transitions                              3820          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_transitions_normal                      3384          1          -    Covered              
+        bin SS_n_transitions_READ_DATA                    244          1          -    Covered              
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_ON                                      3749          1          -    Covered              
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_valid_transitions_WA                   12562          1          -    Covered              
+        bin MOSI_valid_transitions_WD                    7079          1          -    Covered              
+        bin MOSI_valid_transitions_RA                    4935          1          -    Covered              
+        bin MOSI_valid_transitions_RD                    3949          1          -    Covered              
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <MOSI_valid_transitions_RD,SS_n_ON> 
+                                                          411          1          -    Covered              
+            bin <MOSI_valid_transitions_RA,SS_n_ON> 
+                                                          409          1          -    Covered              
+            bin <MOSI_valid_transitions_WD,SS_n_ON> 
+                                                          519          1          -    Covered              
+            bin <MOSI_valid_transitions_WA,SS_n_ON> 
+                                                          504          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cvr_gp           100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin msb_00                                      14475          1          -    Covered              
+        bin msb_01                                      12828          1          -    Covered              
+        bin msb_10                                      11807          1          -    Covered              
+        bin msb_11                                      11896          1          -    Covered              
+        bin msb_transitions                              3820          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_transitions_normal                      3384          1          -    Covered              
+        bin SS_n_transitions_READ_DATA                    244          1          -    Covered              
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_ON                                      3749          1          -    Covered              
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_valid_transitions_WA                   12562          1          -    Covered              
+        bin MOSI_valid_transitions_WD                    7079          1          -    Covered              
+        bin MOSI_valid_transitions_RA                    4935          1          -    Covered              
+        bin MOSI_valid_transitions_RD                    3949          1          -    Covered              
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <MOSI_valid_transitions_RD,SS_n_ON> 
+                                                          411          1          -    Covered              
+            bin <MOSI_valid_transitions_RA,SS_n_ON> 
+                                                          409          1          -    Covered              
+            bin <MOSI_valid_transitions_WD,SS_n_ON> 
+                                                          519          1          -    Covered              
+            bin <MOSI_valid_transitions_WA,SS_n_ON> 
+                                                          504          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+

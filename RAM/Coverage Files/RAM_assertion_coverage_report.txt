@@ -1,0 +1,67 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /TOP/DUT/ram_assertions
+=== Design Unit: work.ram_SVA
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/TOP/DUT/ram_assertions/reset
+                     ram_SVA.sv(15)                     0          1
+/TOP/DUT/ram_assertions/tx_valid_low
+                     ram_SVA.sv(25)                     0          1
+/TOP/DUT/ram_assertions/tx_valid_rise_fall
+                     ram_SVA.sv(35)                     0          1
+/TOP/DUT/ram_assertions/wa_wd
+                     ram_SVA.sv(45)                     0          1
+/TOP/DUT/ram_assertions/ra_rd
+                     ram_SVA.sv(55)                     0          1
+
+=================================================================================
+=== Instance: /ram_sequence_pkg
+=== Design Unit: work.ram_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       3         3         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/ram_sequence_pkg/ram_write_only_sequence/body/#ublk#33711751#43/immed__47
+                     ram_sequence.sv(47)                0          1
+/ram_sequence_pkg/ram_read_only_sequence/body/#ublk#33711751#68/immed__72
+                     ram_sequence.sv(72)                0          1
+/ram_sequence_pkg/ram_write_read_sequence/body/#ublk#33711751#93/immed__97
+                     ram_sequence.sv(97)                0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/TOP/DUT/ram_assertions/reset
+                     ram_SVA.sv(15)                     0          1
+/TOP/DUT/ram_assertions/tx_valid_low
+                     ram_SVA.sv(25)                     0          1
+/TOP/DUT/ram_assertions/tx_valid_rise_fall
+                     ram_SVA.sv(35)                     0          1
+/TOP/DUT/ram_assertions/wa_wd
+                     ram_SVA.sv(45)                     0          1
+/TOP/DUT/ram_assertions/ra_rd
+                     ram_SVA.sv(55)                     0          1
+/ram_sequence_pkg/ram_write_only_sequence/body/#ublk#33711751#43/immed__47
+                     ram_sequence.sv(47)                0          1
+/ram_sequence_pkg/ram_read_only_sequence/body/#ublk#33711751#68/immed__72
+                     ram_sequence.sv(72)                0          1
+/ram_sequence_pkg/ram_write_read_sequence/body/#ublk#33711751#93/immed__97
+                     ram_sequence.sv(97)                0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

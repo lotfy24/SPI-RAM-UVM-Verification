@@ -1,0 +1,47 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/SPI_SLAVE/SPI_ASSERT
+=== Design Unit: work.SPI_assertions
+=================================================================================
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/SPI_ASSERT/cover__P5      SPI_assertions Verilog  SVA  SPI_assertions.sv(49)
+                                                                               451 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P4      SPI_assertions Verilog  SVA  SPI_assertions.sv(40)
+                                                                               429 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P3      SPI_assertions Verilog  SVA  SPI_assertions.sv(31)
+                                                                               498 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P2      SPI_assertions Verilog  SVA  SPI_assertions.sv(21)
+                                                                               667 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P1      SPI_assertions Verilog  SVA  SPI_assertions.sv(11)
+                                                                               889 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/SPI_ASSERT/cover__P5      SPI_assertions Verilog  SVA  SPI_assertions.sv(49)
+                                                                               451 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P4      SPI_assertions Verilog  SVA  SPI_assertions.sv(40)
+                                                                               429 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P3      SPI_assertions Verilog  SVA  SPI_assertions.sv(31)
+                                                                               498 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P2      SPI_assertions Verilog  SVA  SPI_assertions.sv(21)
+                                                                               667 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P1      SPI_assertions Verilog  SVA  SPI_assertions.sv(11)
+                                                                               889 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+Total Coverage By Instance (filtered view): 100.00%
+

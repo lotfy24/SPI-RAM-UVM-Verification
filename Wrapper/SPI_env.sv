@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// Author: Kareem Waseem
+// Course: Digital Verification using SV & UVM
+//
+// Description: UVM Example (Renamed to SPI_*)
+// 
+////////////////////////////////////////////////////////////////////////////////
+package SPI_env_pkg;
+import uvm_pkg::*;
+
+`include "uvm_macros.svh"
+  import shared_pkg::*;
+  import SPI_sequence_item_pkg::*;
+  import SPI_coverage_pkg::*;
+  import SPI_agent_pkg::*;
+  import SPI_scoreboard_pkg::*;
+
+class SPI_env extends uvm_env;
+  `uvm_component_utils(SPI_env)
+  SPI_coverage cov ; 
+  SPI_scoreboard sb ; 
+  SPI_agent agent ; 
+
+  function new (string name = "SPI_env",uvm_component parent = null);
+    super.new(name,parent);
+  endfunction
+  function void build_phase (uvm_phase phase);
+    super.build_phase(phase);
+    cov = SPI_coverage::type_id::create("cov",this);
+    sb = SPI_scoreboard::type_id::create("sb",this); 
+    agent = SPI_agent::type_id::create("agent",this); 
+  endfunction  
+  function void  connect_phase(uvm_phase phase);
+    super.connect_phase(phase);
+    agent.agt_ap.connect(cov.cov_export);
+    agent.agt_ap.connect(sb.sb_export);
+  endfunction
+  
+endclass
+endpackage

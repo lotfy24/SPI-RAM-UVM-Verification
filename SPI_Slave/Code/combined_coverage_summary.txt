@@ -1,0 +1,1927 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/SPI_SLAVE/SPI_ASSERT
+=== Design Unit: work.SPI_assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/SPI_ASSERT/reset
+                     SPI_assertions.sv(10)              0        889      50118          0      51007          0           2 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command
+                     SPI_assertions.sv(20)              0        667      47890       2449      51007          1          20 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_1
+                     SPI_assertions.sv(30)              0        498      48491       2017      51007          1           8 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_2
+                     SPI_assertions.sv(39)              0        429      48810       1767      51007          1           7 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_3
+                     SPI_assertions.sv(48)              0        451      48890       1665      51007          1          12 off
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/SPI_ASSERT/cover__P5      SPI_assertions Verilog  SVA  SPI_assertions.sv(49)
+                                                                               451 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P4      SPI_assertions Verilog  SVA  SPI_assertions.sv(40)
+                                                                               429 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P3      SPI_assertions Verilog  SVA  SPI_assertions.sv(31)
+                                                                               498 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P2      SPI_assertions Verilog  SVA  SPI_assertions.sv(21)
+                                                                               667 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P1      SPI_assertions Verilog  SVA  SPI_assertions.sv(11)
+                                                                               889 Covered   
+
+=================================================================================
+=== Instance: /top/SPI_SLAVE
+=== Design Unit: work.SLAVE
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/IDLE_CHK_CMD
+                     SPI_slave.sv(284)                  0       3749      46224       1033      51007          1           1 off
+/top/SPI_SLAVE/CHK_CMD_W_WA_RD
+                     SPI_slave.sv(291)                  0       3686      46369        952      51007          0           1 off
+/top/SPI_SLAVE/WRITE_IDLE
+                     SPI_slave.sv(298)                  0       1642      48315       1050      51007          0           1 off
+/top/SPI_SLAVE/READ_ADD_IDLE
+                     SPI_slave.sv(305)                  0        392      49684        931      51007          0           1 off
+/top/SPI_SLAVE/READ_DATA_IDLE
+                     SPI_slave.sv(312)                  0       1259      48726       1022      51007          0           1 off
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        27         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/SPI_SLAVE
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_slave.sv
+------------------------------------IF Branch------------------------------------
+    156                                    15689     Count coming in to IF
+    156             1                        729     
+    159             1                      14960     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    167                                     8243     Count coming in to IF
+    167             1                       4347     
+    169             1                       3896     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    173                                     5872     Count coming in to IF
+    173             1                        144     
+Branch totals: 1 hit of 1 branch = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    176                                     5728     Count coming in to IF
+    176             1                       2852     
+    178             1                       2876     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    179                                     2876     Count coming in to IF
+    179             1                       2048     
+    181             1                        828     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    187                                    11891     Count coming in to IF
+    187             1                       1865     
+    189             1                      10026     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    193                                     3047     Count coming in to IF
+    193             1                        492     
+    195             1                       2555     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    199                                     9330     Count coming in to IF
+    199             1                       1392     
+    201             1                       7938     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    213                                    51007     Count coming in to IF
+    213             1                        889     
+    220             1                      50118     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    229                                    19884     Count coming in to IF
+    229             1                      18081     
+    234             1                       1803     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    239                                     5656     Count coming in to IF
+    239             1                       4402     
+    246             1                       1254     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    252                                    16932     Count coming in to IF
+    252             1                       3402     
+    263             1                      13530     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    254                                     3402     Count coming in to IF
+    254             1                       1620     
+    258             1                       1782     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    264                                    13530     Count coming in to IF
+    264             1                      12300     
+    268             1                       1230     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       4         4         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/SPI_SLAVE --
+
+  File SPI_slave.sv
+----------------Focused Condition View-------------------
+Line       229 Item    1  (counter > 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       239 Item    1  (counter > 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       254 Item    1  (counter > 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       264 Item    1  (counter > 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/cover__a4                 SLAVE  Verilog  SVA  SPI_slave.sv(313)
+                                                                              1259 Covered   
+/top/SPI_SLAVE/cover__a3                 SLAVE  Verilog  SVA  SPI_slave.sv(306)
+                                                                               392 Covered   
+/top/SPI_SLAVE/cover__a2                 SLAVE  Verilog  SVA  SPI_slave.sv(299)
+                                                                              1642 Covered   
+/top/SPI_SLAVE/cover__a1                 SLAVE  Verilog  SVA  SPI_slave.sv(292)
+                                                                              3686 Covered   
+/top/SPI_SLAVE/cover__a0                 SLAVE  Verilog  SVA  SPI_slave.sv(285)
+                                                                              3749 Covered   
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       5         5         0   100.00%
+    FSM Transitions                  8         8         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /top/SPI_SLAVE --
+
+FSM_ID: cs
+    Current State Object : cs
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 166                IDLE                   0
+ 172             CHK_CMD                   2
+ 192            READ_ADD                   3
+ 198           READ_DATA                   4
+ 186               WRITE                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                4360          
+                 CHK_CMD                3894          
+                READ_ADD                 955          
+               READ_DATA                2784          
+                   WRITE                3696          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 170                   0                3894          IDLE -> CHK_CMD               
+ 182                   1                 492          CHK_CMD -> READ_ADD           
+ 180                   2                1392          CHK_CMD -> READ_DATA          
+ 177                   3                1865          CHK_CMD -> WRITE              
+ 174                   4                 144          CHK_CMD -> IDLE               
+ 194                   5                 492          READ_ADD -> IDLE              
+ 200                   6                1392          READ_DATA -> IDLE             
+ 188                   7                1865          WRITE -> IDLE                 
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   5         5         0   100.00%
+        FSM Transitions              8         8         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      42        42         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/SPI_SLAVE --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_slave.sv
+    155             1                      15689     
+    157             1                        729     
+    160             1                      14960     
+    164             1                      38383     
+    168             1                       4347     
+    170             1                       3896     
+    174             1                        144     
+    177             1                       2852     
+    180             1                       2048     
+    182             1                        828     
+    188             1                       1865     
+    190             1                      10026     
+    194             1                        492     
+    196             1                       2555     
+    200             1                       1392     
+    202             1                       7938     
+    212             1                      51007     
+    214             1                        889     
+    215             1                        889     
+    216             1                        889     
+    217             1                        889     
+    218             1                        889     
+    223             1                       3897     
+    226             1                       3749     
+    230             1                      18081     
+    231             1                      18081     
+    232             1                      18081     
+    235             1                       1803     
+    240             1                       4402     
+    241             1                       4402     
+    242             1                       4402     
+    244             1                       4402     
+    247             1                       1254     
+    248             1                       1254     
+    253             1                       3402     
+    255             1                       1620     
+    256             1                       1620     
+    260             1                       1782     
+    265             1                      12300     
+    266             1                      12300     
+    269             1                       1230     
+    271             1                       1230     
+
+=================================================================================
+=== Instance: /top/GLD
+=== Design Unit: work.SPI_gld
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        37        37         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/GLD
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_golden.sv
+------------------------------------IF Branch------------------------------------
+    23                                     15689     Count coming in to IF
+    23              1                        729     
+    26              1                      14960     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    32                                     39171     Count coming in to CASE
+    33              1                       8137     
+    39              1                       5872     
+    49              1                      11891     
+    55              1                       7706     
+    61              1                       5564     
+    67              1                          1     
+Branch totals: 6 hits of 6 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    34                                      8137     Count coming in to IF
+    34              1                       4241     
+    36              1                       3896     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                      5872     Count coming in to IF
+    40              1                       2852     
+    42              1                       1646     
+    44              1                       1230     
+    46              1                        144     
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    50                                     11891     Count coming in to IF
+    50              1                       1865     
+    52              1                      10026     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                      7706     Count coming in to IF
+    56              1                       1054     
+    58              1                       6652     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    62                                      5564     Count coming in to IF
+    62              1                        830     
+    64              1                       4734     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    72                                     49946     Count coming in to IF
+    72              1                        885     
+    80              1                      49061     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    81                                     49061     Count coming in to CASE
+    82              1                       3895     
+    87              1                       3749     
+    91              1                      19884     
+    101             1                      11282     
+    112             1                      10250     
+                                               1     All False Count
+Branch totals: 6 hits of 6 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    92                                     19884     Count coming in to IF
+    92              1                      18081     
+    97              1                       1803     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                    11282     Count coming in to IF
+    102             1                      10022     
+    108             1                       1260     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    113                                    10250     Count coming in to IF
+    113             1                       8860     
+    118             1                        672     
+                                             718     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    122                                    10250     Count coming in to IF
+    122             1                       1390     
+                                            8860     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      14        10         4    71.42%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/GLD --
+
+  File SPI_golden.sv
+----------------Focused Condition View-------------------
+Line       40 Item    1  (SS_n ~| MOSI)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       42 Item    1  ((~SS_n && MOSI) && ~rd_control)
+Condition totals: 2 of 3 input terms covered = 66.66%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        SS_n         Y
+        MOSI         N  '_0' not hit             Hit '_0'
+  rd_control         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  SS_n_0                (~rd_control && MOSI)         
+  Row   2:          1  SS_n_1                -                             
+  Row   3:    ***0***  MOSI_0                ~SS_n                         
+  Row   4:          1  MOSI_1                (~rd_control && ~SS_n)        
+  Row   5:          1  rd_control_0          (~SS_n && MOSI)               
+  Row   6:          1  rd_control_1          (~SS_n && MOSI)               
+
+----------------Focused Condition View-------------------
+Line       44 Item    1  ((~SS_n && MOSI) && rd_control)
+Condition totals: 1 of 3 input terms covered = 33.33%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        SS_n         Y
+        MOSI         N  '_0' not hit             Hit '_0'
+  rd_control         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  SS_n_0                (rd_control && MOSI)          
+  Row   2:          1  SS_n_1                -                             
+  Row   3:    ***0***  MOSI_0                ~SS_n                         
+  Row   4:          1  MOSI_1                (rd_control && ~SS_n)         
+  Row   5:    ***0***  rd_control_0          (~SS_n && MOSI)               
+  Row   6:          1  rd_control_1          (~SS_n && MOSI)               
+
+----------------Focused Condition View-------------------
+Line       92 Item    1  (counter <= 9)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       102 Item    1  (counter <= 9)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       113 Item    1  (counter <= 9)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       118 Item    1  (tx_valid && (counter >= 3))
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+        tx_valid         Y
+  (counter >= 3)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  tx_valid_0            -                             
+  Row   2:          1  tx_valid_1            (counter >= 3)                
+  Row   3:    ***0***  (counter >= 3)_0      tx_valid                      
+  Row   4:          1  (counter >= 3)_1      tx_valid                      
+
+----------------Focused Condition View-------------------
+Line       122 Item    1  (counter > 9)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       5         5         0   100.00%
+    FSM Transitions                  8         8         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /top/GLD --
+
+FSM_ID: cs
+    Current State Object : cs
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  33                IDLE                   0
+  39             CHK_CMD                   1
+  61           READ_DATA                   4
+  55            READ_ADD                   3
+  49               WRITE                   2
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                4360          
+                 CHK_CMD                3894          
+               READ_DATA                1660          
+                READ_ADD                2079          
+                   WRITE                3696          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  37                   0                3894          IDLE -> CHK_CMD               
+  47                   1                 144          CHK_CMD -> IDLE               
+  45                   2                 830          CHK_CMD -> READ_DATA          
+  43                   3                1054          CHK_CMD -> READ_ADD           
+  41                   4                1865          CHK_CMD -> WRITE              
+  63                   5                 830          READ_DATA -> IDLE             
+  57                   6                1054          READ_ADD -> IDLE              
+  51                   7                1865          WRITE -> IDLE                 
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   5         5         0   100.00%
+        FSM Transitions              8         8         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      44        44         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/GLD --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_golden.sv
+    22              1                      15689     
+    24              1                        729     
+    27              1                      14960     
+    31              1                      39171     
+    35              1                       4241     
+    37              1                       3896     
+    41              1                       2852     
+    43              1                       1646     
+    45              1                       1230     
+    47              1                        144     
+    51              1                       1865     
+    53              1                      10026     
+    57              1                       1054     
+    59              1                       6652     
+    63              1                        830     
+    65              1                       4734     
+    67              1                          1     
+    71              1                      49946     
+    73              1                        885     
+    74              1                        885     
+    75              1                        885     
+    76              1                        885     
+    77              1                        885     
+    83              1                       3895     
+    84              1                       3895     
+    85              1                       3895     
+    88              1                       3749     
+    89              1                       3749     
+    93              1                      18081     
+    94              1                      18081     
+    95              1                      18081     
+    98              1                       1803     
+    103             1                      10022     
+    104             1                      10022     
+    105             1                      10022     
+    106             1                      10022     
+    109             1                       1260     
+    114             1                       8860     
+    115             1                       8860     
+    116             1                       8860     
+    119             1                        672     
+    120             1                        672     
+    123             1                       1390     
+    124             1                       1390     
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File top.sv
+    10              1                          1     
+    11              1                          1     
+    12              1                     102015     
+    12              2                     102014     
+    26              1                          1     
+    27              1                          1     
+
+=================================================================================
+=== Instance: /SPI_sequence_item_pkg
+=== Design Unit: work.SPI_sequence_item_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        34        22        12    64.70%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_sequence_item_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_sequence_item.sv
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                     51007     Count coming in to IF
+    11              2                    ***0***     
+                                           51007     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              3                    ***0***     
+    11              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                     51007     Count coming in to IF
+    11              5                    ***0***     
+                                           51007     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                     51000     Count coming in to IF
+    60              1                        885     
+                                           50115     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    74                                     50115     Count coming in to IF
+    74              1                      11625     
+    78              1                        186     
+    82              1                      23464     
+                                           14840     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    86                                     50115     Count coming in to IF
+    86              1                       5612     
+    107             1                      44503     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    87                                      5612     Count coming in to IF
+    87              1                        244     
+    96              1                       5368     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    108                                    44503     Count coming in to IF
+    108             1                       3385     
+    117             1                      41118     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    129                                    50115     Count coming in to IF
+    129             1                      40417     
+    131             1                       9698     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    143                                     9427     Count coming in to CASE
+    144             1                       9427     
+    145             1                    ***0***     
+    146             1                    ***0***     
+    147             1                    ***0***     
+    148             1                    ***0***     
+Branch totals: 1 hit of 5 branches = 20.00%
+
+------------------------------------CASE Branch------------------------------------
+    174                                    51007     Count coming in to CASE
+    175             1                      12121     
+    176             1                      11680     
+    177             1                      11775     
+    178             1                      14941     
+    179             1                        490     
+Branch totals: 5 hits of 5 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      10         8         2    80.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /SPI_sequence_item_pkg --
+
+  File SPI_sequence_item.sv
+----------------Focused Condition View-------------------
+Line       11 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       11 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       74 Item    1  (this.cmd == 6)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       78 Item    1  ((this.cmd == 7) && this.f_read_addr)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       82 Item    1  ((this.cmd == 0) || (this.cmd == 1))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       87 Item    1  (this.counter_SS_n >= 22)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       108 Item    1  (this.counter_SS_n >= 12)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       129 Item    1  (this.MOSI_arr_index < 11)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      93        81        12    87.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_sequence_item_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_sequence_item.sv
+    11              1                    ***0***     
+    11              2                    ***0***     
+    11              3                    ***0***     
+    11              4                    ***0***     
+    11              5                    ***0***     
+    11              6                      51007     
+    11              7                    ***0***     
+    11              8                    ***0***     
+    11              9                      51007     
+    11             10                    ***0***     
+    32              1                      52016     
+    33              1                      52016     
+    34              1                      52016     
+    35              1                      52016     
+    36              1                      52016     
+    37              1                      52016     
+    38              1                      52016     
+    61              1                        885     
+    62              1                        885     
+    63              1                        885     
+    64              1                        885     
+    65              1                        885     
+    66              1                        885     
+    67              1                        885     
+    68              1                        885     
+    71              1                      50115     
+    75              1                      11625     
+    76              1                      11625     
+    79              1                        186     
+    80              1                        186     
+    83              1                      23464     
+    84              1                      23464     
+    88              1                        244     
+    89              1                        244     
+    90              1                        244     
+    91              1                        244     
+    92              1                        244     
+    93              1                        244     
+    94              1                        244     
+    97              1                       5368     
+    98              1                       5368     
+    99              1                       5368     
+    100             1                       5368     
+    102             1                       5368     
+    103             1                       5368     
+    104             1                       5368     
+    109             1                       3385     
+    110             1                       3385     
+    111             1                       3385     
+    112             1                       3385     
+    113             1                       3385     
+    114             1                       3385     
+    115             1                       3385     
+    118             1                      41118     
+    119             1                      41118     
+    120             1                      41118     
+    121             1                      41118     
+    122             1                      41118     
+    123             1                      41118     
+    124             1                      41118     
+    130             1                      40417     
+    132             1                       9698     
+    134             1                      50115     
+    144             1                       9427     
+    145             1                    ***0***     
+    146             1                    ***0***     
+    147             1                    ***0***     
+    148             1                    ***0***     
+    150             1                       9427     
+    151             1                       9427     
+    152             1                       9427     
+    153             1                       9427     
+    154             1                       9427     
+    155             1                       9427     
+    156             1                       9427     
+    157             1                       9427     
+    158             1                       9427     
+    159             1                       9427     
+    160             1                       9427     
+    161             1                       9427     
+    162             1                       9427     
+    163             1                       9427     
+    164             1                       9427     
+    165             1                       9427     
+    166             1                       9427     
+    167             1                       9427     
+    168             1                       9427     
+    175             1                      12121     
+    176             1                      11680     
+    177             1                      11775     
+    178             1                      14941     
+    179             1                        490     
+    181             1                      51007     
+
+=================================================================================
+=== Instance: /SPI_sequence_pkg
+=== Design Unit: work.SPI_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#18/immed__20
+                     SPI_sequence.sv(20)                0      50000          0          0      50000          0           0 off
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#23/immed__31
+                     SPI_sequence.sv(31)                0       1000          0          0       1000          0           0 off
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30         6        24    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_sequence_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_sequence.sv
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                          1     Count coming in to IF
+    8               2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               3                    ***0***     
+    8               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                          1     Count coming in to IF
+    8               5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                   ***0***     Count coming in to IF
+    38              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                         1     Count coming in to IF
+    38              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                   ***0***     Count coming in to IF
+    38              3                    ***0***     
+    38              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                         1     Count coming in to IF
+    38              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                   ***0***     Count coming in to IF
+    38              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                   ***0***     Count coming in to IF
+    68              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                         1     Count coming in to IF
+    68              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                   ***0***     Count coming in to IF
+    68              3                    ***0***     
+    68              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                         1     Count coming in to IF
+    68              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                   ***0***     Count coming in to IF
+    68              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         0         6     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /SPI_sequence_pkg --
+
+  File SPI_sequence.sv
+----------------Focused Condition View-------------------
+Line       8 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       8 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       38 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       38 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       68 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       68 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      75        51        24    68.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_sequence_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_sequence.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                    ***0***     
+    8               4                    ***0***     
+    8               5                    ***0***     
+    8               6                          1     
+    8               7                    ***0***     
+    8               8                    ***0***     
+    8               9                          1     
+    8              10                    ***0***     
+    13              1                          1     
+    17              1                          1     
+    18              1                      50000     
+    19              1                      50000     
+    21              1                      50000     
+    23              1                       1000     
+    24              1                       1000     
+    25              1                       1000     
+    26              1                       1000     
+    27              1                       1000     
+    28              1                       1000     
+    29              1                       1000     
+    30              1                       1000     
+    32              1                       1000     
+    38              1                    ***0***     
+    38              2                    ***0***     
+    38              3                    ***0***     
+    38              4                    ***0***     
+    38              5                    ***0***     
+    38              6                          1     
+    38              7                    ***0***     
+    38              8                    ***0***     
+    38              9                          1     
+    38             10                    ***0***     
+    43              1                          1     
+    47              1                          1     
+    48              1                          1     
+    49              1                          1     
+    50              1                          1     
+    51              1                          1     
+    52              1                          1     
+    53              1                          1     
+    54              1                          1     
+    55              1                          1     
+    56              1                          1     
+    57              1                          1     
+    58              1                          1     
+    59              1                          1     
+    60              1                          1     
+    61              1                          1     
+    62              1                          1     
+    63              1                          1     
+    68              1                    ***0***     
+    68              2                    ***0***     
+    68              3                    ***0***     
+    68              4                    ***0***     
+    68              5                    ***0***     
+    68              6                          1     
+    68              7                    ***0***     
+    68              8                    ***0***     
+    68              9                          1     
+    68             10                    ***0***     
+    73              1                          1     
+    78              1                          1     
+    79              1                          1     
+    80              1                          1     
+    81              1                          1     
+    84              1                          1     
+    85              1                          1     
+    86              1                          1     
+    87              1                          1     
+    90              1                          1     
+    91              1                          1     
+    92              1                          1     
+    93              1                          1     
+
+=================================================================================
+=== Instance: /SPI_scoreboard_pkg
+=== Design Unit: work.SPI_scoreboard_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         5         3    62.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_scoreboard_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    33                                     51007     Count coming in to IF
+    33              1                       9427     
+    38              1                      41580     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    35                                      9427     Count coming in to IF
+    35              1                       9427     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    39                                     41580     Count coming in to IF
+    39              1                    ***0***     
+                                           41580     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                         1     Count coming in to IF
+    46              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       3         3         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /SPI_scoreboard_pkg --
+
+  File SPI_scoreboard.sv
+----------------Focused Condition View-------------------
+Line       33 Item    1  ((this.sb_seq_item.rx_valid != this.sb_seq_item.rx_valid_gld) || (this.sb_seq_item.MISO != this.sb_seq_item.MISO_gld) || (this.sb_seq_item.rx_data != this.sb_seq_item.rx_data_gld))
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      18        15         3    83.33%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_scoreboard_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_scoreboard.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    17              1                          1     
+    20              1                          1     
+    21              1                          1     
+    22              1                          1     
+    25              1                          1     
+    26              1                          1     
+    29              1                          1     
+    30              1                          1     
+    31              1                      51008     
+    35              1                       9427     
+    36              1                       9427     
+    39              1                    ***0***     
+    40              1                      41580     
+    45              1                          1     
+    46              1                          1     
+
+=================================================================================
+=== Instance: /SPI_monitor_pkg
+=== Design Unit: work.SPI_monitor_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        20         2    90.90%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_monitor.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    15              1                          1     
+    19              1                          1     
+    20              1                          1     
+    24              1                          1     
+    25              1                          1     
+    26              1                      51008     
+    27              1                      51008     
+    29              1                      51007     
+    30              1                      51007     
+    31              1                      51007     
+    32              1                      51007     
+    33              1                      51007     
+    35              1                      51007     
+    36              1                      51007     
+    37              1                      51007     
+    39              1                      51007     
+    40              1                      51007     
+    41              1                      51007     
+    42              1                      51007     
+
+=================================================================================
+=== Instance: /SPI_config_pkg
+=== Design Unit: work.SPI_config_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_config_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_config.sv
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               3                    ***0***     
+    5               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /SPI_config_pkg --
+
+  File SPI_config.sv
+----------------Focused Condition View-------------------
+Line       5 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       5 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         1        10     9.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_config_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_config.sv
+    5               1                    ***0***     
+    5               2                    ***0***     
+    5               3                    ***0***     
+    5               4                    ***0***     
+    5               5                    ***0***     
+    5               6                    ***0***     
+    5               7                    ***0***     
+    5               8                    ***0***     
+    5               9                    ***0***     
+    5              10                    ***0***     
+    12              1                          1     
+
+=================================================================================
+=== Instance: /SPI_driver_pkg
+=== Design Unit: work.SPI_driver_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_driver_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_driver.sv
+------------------------------------IF Branch------------------------------------
+    25                                     51007     Count coming in to IF
+    25              1                      51007     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        13         2    86.66%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_driver.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    12              1                          1     
+    15              1                          1     
+    16              1                          1     
+    17              1                      51008     
+    18              1                      51007     
+    19              1                      51007     
+    20              1                      51007     
+    21              1                      51007     
+    22              1                      51007     
+    23              1                      51007     
+    24              1                      51007     
+    25              1                      51007     
+
+=================================================================================
+=== Instance: /SPI_sequencer_pkg
+=== Design Unit: work.SPI_sequencer_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         2         2    50.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_sequencer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_sequencer.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    10              1                          1     
+
+=================================================================================
+=== Instance: /SPI_agent_pkg
+=== Design Unit: work.SPI_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_agent.sv
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    27                                   ***0***     Count coming in to IF
+    27              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    29                                         1     Count coming in to IF
+    29              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                         1     Count coming in to IF
+    38              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        11         3    78.57%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_agent.sv
+    12              1                    ***0***     
+    12              2                    ***0***     
+    12              3                          2     
+    21              1                          1     
+    25              1                          1     
+    27              1                    ***0***     
+    30              1                          1     
+    31              1                          1     
+    33              1                          1     
+    34              1                          1     
+    39              1                          1     
+    40              1                          1     
+    42              1                          1     
+    43              1                          1     
+
+=================================================================================
+=== Instance: /SPI_coverage_pkg
+=== Design Unit: work.SPI_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         16        16         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cvr_gp           100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin msb_00                                      14475          1          -    Covered              
+        bin msb_01                                      12828          1          -    Covered              
+        bin msb_10                                      11807          1          -    Covered              
+        bin msb_11                                      11896          1          -    Covered              
+        bin msb_transitions                              3820          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_transitions_normal                      3384          1          -    Covered              
+        bin SS_n_transitions_READ_DATA                    244          1          -    Covered              
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_ON                                      3749          1          -    Covered              
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_valid_transitions_WA                   12562          1          -    Covered              
+        bin MOSI_valid_transitions_WD                    7079          1          -    Covered              
+        bin MOSI_valid_transitions_RA                    4935          1          -    Covered              
+        bin MOSI_valid_transitions_RD                    3949          1          -    Covered              
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <MOSI_valid_transitions_RD,SS_n_ON> 
+                                                          411          1          -    Covered              
+            bin <MOSI_valid_transitions_RA,SS_n_ON> 
+                                                          409          1          -    Covered              
+            bin <MOSI_valid_transitions_WD,SS_n_ON> 
+                                                          519          1          -    Covered              
+            bin <MOSI_valid_transitions_WA,SS_n_ON> 
+                                                          504          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        12         2    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_coverage_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_coverage.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    65              1                          1     
+    66              1                          1     
+    70              1                          1     
+    71              1                          1     
+    72              1                          1     
+    75              1                          1     
+    76              1                          1     
+    79              1                          1     
+    80              1                          1     
+    81              1                      51008     
+    82              1                      51007     
+
+=================================================================================
+=== Instance: /SPI_env_pkg
+=== Design Unit: work.SPI_env_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         9         2    81.81%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_env_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_env.sv
+    19              1                    ***0***     
+    19              2                    ***0***     
+    19              3                          2     
+    25              1                          1     
+    28              1                          1     
+    29              1                          1     
+    30              1                          1     
+    31              1                          1     
+    34              1                          1     
+    35              1                          1     
+    36              1                          1     
+
+=================================================================================
+=== Instance: /SPI_test_pkg
+=== Design Unit: work.SPI_test_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         4         6    40.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /SPI_test_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_test.sv
+------------------------------------IF Branch------------------------------------
+    32                                         1     Count coming in to IF
+    32              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                   ***0***     Count coming in to IF
+    33              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    41                                         1     Count coming in to IF
+    41              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    43                                         1     Count coming in to IF
+    43              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                         1     Count coming in to IF
+    45              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        19         3    86.36%
+
+================================Statement Details================================
+
+Statement Coverage for instance /SPI_test_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_test.sv
+    13              1                    ***0***     
+    13              2                    ***0***     
+    13              3                          4     
+    23              1                          1     
+    26              1                          1     
+    27              1                          1     
+    28              1                          1     
+    29              1                          1     
+    30              1                          1     
+    31              1                          1     
+    33              1                    ***0***     
+    34              1                          1     
+    35              1                          1     
+    39              1                          1     
+    40              1                          1     
+    41              1                          1     
+    42              1                          1     
+    43              1                          1     
+    44              1                          1     
+    45              1                          1     
+    46              1                          1     
+    47              1                          1     
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cvr_gp           100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_msb_cp                         100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin msb_00                                      14475          1          -    Covered              
+        bin msb_01                                      12828          1          -    Covered              
+        bin msb_10                                      11807          1          -    Covered              
+        bin msb_11                                      11896          1          -    Covered              
+        bin msb_transitions                              3820          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_transitions_normal                      3384          1          -    Covered              
+        bin SS_n_transitions_READ_DATA                    244          1          -    Covered              
+    Coverpoint SS_ON_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_ON                                      3749          1          -    Covered              
+    Coverpoint MOSI_valid_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_valid_transitions_WA                   12562          1          -    Covered              
+        bin MOSI_valid_transitions_WD                    7079          1          -    Covered              
+        bin MOSI_valid_transitions_RA                    4935          1          -    Covered              
+        bin MOSI_valid_transitions_RD                    3949          1          -    Covered              
+    Cross MOSI_SS_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <MOSI_valid_transitions_RD,SS_n_ON> 
+                                                          411          1          -    Covered              
+            bin <MOSI_valid_transitions_RA,SS_n_ON> 
+                                                          409          1          -    Covered              
+            bin <MOSI_valid_transitions_WD,SS_n_ON> 
+                                                          519          1          -    Covered              
+            bin <MOSI_valid_transitions_WA,SS_n_ON> 
+                                                          504          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/cover__a4                 SLAVE  Verilog  SVA  SPI_slave.sv(313)
+                                                                              1259 Covered   
+/top/SPI_SLAVE/cover__a3                 SLAVE  Verilog  SVA  SPI_slave.sv(306)
+                                                                               392 Covered   
+/top/SPI_SLAVE/cover__a2                 SLAVE  Verilog  SVA  SPI_slave.sv(299)
+                                                                              1642 Covered   
+/top/SPI_SLAVE/cover__a1                 SLAVE  Verilog  SVA  SPI_slave.sv(292)
+                                                                              3686 Covered   
+/top/SPI_SLAVE/cover__a0                 SLAVE  Verilog  SVA  SPI_slave.sv(285)
+                                                                              3749 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P5      SPI_assertions Verilog  SVA  SPI_assertions.sv(49)
+                                                                               451 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P4      SPI_assertions Verilog  SVA  SPI_assertions.sv(40)
+                                                                               429 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P3      SPI_assertions Verilog  SVA  SPI_assertions.sv(31)
+                                                                               498 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P2      SPI_assertions Verilog  SVA  SPI_assertions.sv(21)
+                                                                               667 Covered   
+/top/SPI_SLAVE/SPI_ASSERT/cover__P1      SPI_assertions Verilog  SVA  SPI_assertions.sv(11)
+                                                                               889 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 10
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/SPI_SLAVE/IDLE_CHK_CMD
+                     SPI_slave.sv(284)                  0       3749      46224       1033      51007          1           1 off
+/top/SPI_SLAVE/CHK_CMD_W_WA_RD
+                     SPI_slave.sv(291)                  0       3686      46369        952      51007          0           1 off
+/top/SPI_SLAVE/WRITE_IDLE
+                     SPI_slave.sv(298)                  0       1642      48315       1050      51007          0           1 off
+/top/SPI_SLAVE/READ_ADD_IDLE
+                     SPI_slave.sv(305)                  0        392      49684        931      51007          0           1 off
+/top/SPI_SLAVE/READ_DATA_IDLE
+                     SPI_slave.sv(312)                  0       1259      48726       1022      51007          0           1 off
+/top/SPI_SLAVE/SPI_ASSERT/reset
+                     SPI_assertions.sv(10)              0        889      50118          0      51007          0           2 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command
+                     SPI_assertions.sv(20)              0        667      47890       2449      51007          1          20 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_1
+                     SPI_assertions.sv(30)              0        498      48491       2017      51007          1           8 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_2
+                     SPI_assertions.sv(39)              0        429      48810       1767      51007          1           7 off
+/top/SPI_SLAVE/SPI_ASSERT/valid_command_3
+                     SPI_assertions.sv(48)              0        451      48890       1665      51007          1          12 off
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#18/immed__20
+                     SPI_sequence.sv(20)                0      50000          0          0      50000          0           0 off
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#23/immed__31
+                     SPI_sequence.sv(31)                0       1000          0          0       1000          0           0 off
+
+Total Coverage By Instance (filtered view): 88.84%
+
